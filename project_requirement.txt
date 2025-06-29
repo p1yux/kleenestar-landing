@@ -1,0 +1,91 @@
+📄 Project Requirement Context
+We are building a modern, full-stack Marketing Platform tailored for both B2B and B2C businesses. The platform aims to centralize and streamline the entire marketing lifecycle—from strategy to execution—and empower companies to scale their growth through smart automation, powerful integrations, and performance analytics.
+
+🌐 Target Audience
+B2B companies (SaaS, services, enterprise tools)
+
+B2C businesses (eCommerce, DTC brands, creators)
+
+🚀 Core Features
+1. Content Creation Suite
+Rich-text and media editors for blogs, landing pages, social posts
+
+AI-powered copy generator for emails, ads, captions, etc.
+
+Pre-made templates (carousel, reels, blog, product banners)
+
+Asset library (images, brand assets, reusable content blocks)
+
+2. Channel Management
+Schedule and publish content across:
+
+Social Media (Instagram, LinkedIn, Twitter/X, Facebook, TikTok)
+
+Email campaigns
+
+SMS & WhatsApp
+
+Push Notifications
+
+Calendar view for campaign planning
+
+3. Integrations & Sync
+CRM tools (HubSpot, Salesforce, Zoho)
+
+Analytics (Google Analytics, Meta Pixel, LinkedIn Insight Tag)
+
+E-commerce platforms (Shopify, WooCommerce)
+
+Form builders (Typeform, Jotform)
+
+API for custom integrations
+
+4. Ads & Campaign Manager
+Launch paid campaigns across Meta, Google, LinkedIn
+
+AI-driven ad copy and targeting suggestions
+
+Real-time budget tracking and ROI dashboard
+
+Split testing (A/B tests) and performance insights
+
+5. Growth Tools
+Landing page builder with conversion tracking
+
+Referral program setup and tracking
+
+Lead magnet management (freebies, popups, banners)
+
+Chatbot and AI assistant for lead capture
+
+6. Team Collaboration
+Role-based access (Marketer, Designer, Analyst, Admin)
+
+Content approval workflows and feedback threads
+
+Task assignments and campaign checklists
+
+7. Analytics & Reporting
+Customizable dashboards (traffic, conversions, channel ROI)
+
+Funnel visualization (awareness → lead → conversion)
+
+Exportable reports (PDF, CSV)
+
+Engagement scoring and trend detection
+
+🛠️ Technical Stack (Suggested)
+Frontend: Next.js, Tailwind CSS, Framer Motion
+
+Backend: Node.js / FastAPI / Django
+
+Database: PostgreSQL / MongoDB
+
+Auth: JWT, OAuth (Google, LinkedIn, Microsoft)
+
+Integrations: Zapier, REST APIs, Webhooks
+
+DevOps: Docker, GitHub Actions, Vercel / AWS / Railway
+
+🎯 Vision
+The goal is to create a scalable, intuitive, and intelligent platform that makes marketing less chaotic and more strategic—bringing creativity, data, and execution into one seamless experience for growth-focused teams
