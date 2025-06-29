@@ -67,7 +67,7 @@ const NavBar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a
-              href="#home"
+              href="/"
               className={`text-3xl font-bold text-gray-900 transition-all duration-700 ease-out transform ${
                 isLoaded 
                   ? 'translate-y-0 opacity-100' 
