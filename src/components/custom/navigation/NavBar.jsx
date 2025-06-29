@@ -57,26 +57,26 @@ const NavBar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all rounded-b-4xl duration-300 ${
       isScrolled 
         ? 'bg-[#D8D8D4]/95 backdrop-blur-sm border-b border-gray-300/20 shadow-sm' 
         : 'bg-transparent'
     }`}>
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 mt-3">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <a
               href="#home"
-              className={`text-5xl font-bold text-gray-900 transition-all duration-700 ease-out transform ${
+              className={`text-3xl font-bold text-gray-900 transition-all duration-700 ease-out transform ${
                 isLoaded 
                   ? 'translate-y-0 opacity-100' 
                   : '-translate-y-4 opacity-0'
               }`}
               style={{ 
                 transitionDelay: '0.1s',
-                fontFamily: 'serif',
-                fontWeight: '400',
+                fontFamily: 'var(--font-bricolage-grotesque)',
+                fontWeight: '600',
               }}
               tabIndex="0"
               aria-label="Kleenestar homepage"
@@ -87,7 +87,7 @@ const NavBar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-baseline space-x-8" style={{ fontFamily: 'var(--font-bricolage-grotesque)' }}>
               {navigationLinks.map((link, index) => (
                 <a
                   key={link.name}
